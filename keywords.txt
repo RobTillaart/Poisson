@@ -1,0 +1,16 @@
+# Syntax Colouring Map For Poisson
+
+# Data types (KEYWORD1)
+Poisson	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+
+begin	KEYWORD2
+
+PequalsValue	KEYWORD2
+PsmallerValue	KEYWORD2
+
+
+# Constants (LITERAL1)
+POISSON_LIB_VERSION	LITERAL1
+
