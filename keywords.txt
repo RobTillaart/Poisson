@@ -7,11 +7,14 @@ Poisson	KEYWORD1
 
 begin	KEYWORD2
 
+add	KEYWORD2
+
 equal	KEYWORD2
 smallerEqual	KEYWORD2
 smaller	KEYWORD2
 largerEqual	KEYWORD2
 larger	KEYWORD2
+
 between	KEYWORD2
 average	KEYWORD2
 stddev	KEYWORD2
