@@ -136,6 +136,7 @@ Core functions implemented.
 - **double largerEqual(uint8_t k)** P(X >= k)
 - **double larger(uint8_t k)** P(X > k)
 - **double between(uint8_t k1, uint8_t k2)** P(k1 <= X < k2)
+- **double outside(uint8_t k1, uint8_t k2)** P(X < k1) + P(X >= k2)
 
 Alternative names to be used.
 
@@ -168,6 +169,8 @@ This weight alpha must be between 0 and 1.
 The higher alpha the more mu will change.
 Think of it as percentage change.
 
+It is possible to **add()** a data set in a loop to determine mu.
+
 
 ## Future
 
@@ -183,6 +186,8 @@ Think of it as percentage change.
 
 - add unit tests
 - optimize code(more possible?)
+- inverse CDF - search.
+  - Smallest k for which P(X <= k) >= N (0..1);
 
 #### Won't (unless requested)
 

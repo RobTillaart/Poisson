@@ -116,6 +116,11 @@ public:
     // }
      // return sum;
   }
+  
+  double outside(uint8_t k1, uint8_t k2)
+  {
+    return 1 - between(k1, k2);
+  }
 
 /////////////////////////////////////////////////////////////////////
 
